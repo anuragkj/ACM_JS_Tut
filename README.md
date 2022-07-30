@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="_examples_javascript_beginners/assets/images/javascript_logo_4.png" alt="JavaScript logo" title="JavaScript for beginners" width="200" />
+  <img src="ACM_JS_Tut/assets/images/javascript_logo_4.png" alt="JavaScript logo" title="JavaScript for beginners" width="200" />
 </p>
    
 Section 07. Operators
