@@ -1371,3 +1371,6 @@ switch(currentDate.getDay()) {
 console.log(`Today is ${currentDay}!`);
 
 ```
+<p align="center">
+  <img src="assets/images/bazinga.png" alt="JavaScript logo" title="JavaScript tutorial" width="400" />
+</p>
