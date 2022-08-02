@@ -4,17 +4,17 @@
 // Parameterized function
 
 //1. define / declare / create function
-function sayHello (name) {
+function passButter(food) {
   //Body of function 
   //code to be executed
-  console.log('Hello ' + name);
-  alert('Hello ' + name);    
+  console.log('Please pass the ' + food);
+  alert('Please pass the ' + food);    
 }
 
 //2. invoke / call the function
-sayHello('Dinanath');
+passButter('butter');
 
-sayHello('Dino');
+passButter('butter!!!');
 
 // ------------------------------
 

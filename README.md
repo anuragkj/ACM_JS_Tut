@@ -405,7 +405,9 @@ Examples of function names:
 #### 08.02.01. Regular Function
 
 - Simple/Normal function which we use daily to perform some action/task
-
+<p align="center">
+  <img src="assets/images/butter.png" alt="JavaScript logo" title="JavaScript tutorial" width="400" />
+</p>
 
 > **Syntax & Example**: `08.02.01.script.js`
 ```javascript
@@ -432,17 +434,17 @@ passButter();
 ```javascript
 // Parameterized function
 //1. define / declare / create function
-function sayHello (name) {
+function passButter(food) {
   //Body of function 
   //code to be executed
-  console.log('Hello ' + name);
-  alert('Hello ' + name);    
+  console.log('Please pass the ' + food);
+  alert('Please pass the ' + food);    
 }
 
 //2. invoke / call the function
-sayHello('Dinanath');
+passButter('butter');
 
-sayHello('Dino');
+passButter('butter!!!');
 
 // ------------------------------
 
