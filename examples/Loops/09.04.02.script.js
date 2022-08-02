@@ -8,7 +8,7 @@
 }*/
 
 // An object with some properties 
-let objEmployee = {'emp_name': 'Dinanath', 'emp_addres': 'Mumbai', 'emp_id': '029', 'emp_age':35};
+let objEmployee = {'emp_name': 'Sheldon', 'emp_addres': 'Mumbai', 'emp_id': '029', 'emp_age':35};
 
 // Loop through all the properties in the object  
 for (emp in objEmployee) {

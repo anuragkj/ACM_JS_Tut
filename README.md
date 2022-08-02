@@ -597,8 +597,8 @@ alert(sum1(5,10));
 > **Syntax & Example**: 
 ```javascript
 
-const firstName = 'Dinanath';
-const lastName = 'Jayaswal'
+const firstName = 'Sheldon';
+const lastName = 'Cooper'
 
 const fullName = (firstName) + (lastName);
 console.log(fullName);
@@ -610,8 +610,8 @@ console.log(firstName + ' ' + lastName);
 console.log('Hello ' + firstName + ' ' + lastName + 'Welcome to JavaScript!');
 
 // append
-let name1 = 'Dinanath ';
-let name1 += 'Jayaswal';
+let name1 = 'Sheldon ';
+let name1 += 'Cooper';
 console.log(name1);
 
 // concat() method
@@ -643,7 +643,7 @@ console.log(firstName.charAt(2));
 console.log(firstName.charAt(firstName.length - 1));
 
 // replace();
-let replaceString = ('Dinanath', 'DJ');
+let replaceString = ('Sheldon', 'DJ');
 console.log('My name is:', replaceString); 
 
 // substring();
@@ -656,20 +656,22 @@ console.log(firstName.slice(0,4));
 console.log(firstName.slice(-2));
 
 // includes();
-let message2 = 'Hello Dinanath, welcome to JavaScript';
+let message2 = 'Hello Sheldon, welcome to JavaScript';
 console.log(message2.includes('Hello'));
 console.log(message2.includes('Hi'));
 
 // split()
-let message2 = 'Hello Dinanath, welcome, to JavaScript';
+let message2 = 'Hello Sheldon, welcome, to JavaScript';
 console.log(message2.split(','));
 console.log(message2.split(' '));
 
-let courses = 'html5, css3, javascript, angular';
+let courses = 'If I Could, I Would But I Can't So I Shan't';
 console.log(courses.split(','));
 
 ```
-
+<p align="center">
+  <img src="assets/images/split.png" alt="JavaScript logo" title="JavaScript tutorial" width="400" />
+</p>
 08.05. Template String
 ---------------------
 08.05. Template Literals
@@ -687,15 +689,15 @@ console.log(courses.split(','));
 ```javascript
 
 //old plain javascript approach
-let user = 'Dinanath';
+let user = 'Sheldon';
 let greetMessage1 = 'Welcome' + ' ' + user + ' ' + 'to JavaScript.';
 
 console.log(greetMessage1);
  
 console.log('// ------------------------------');
 
-const firstName = 'Dinanath';
-const lastName = 'Jayaswal'
+const firstName = 'Sheldon';
+const lastName = 'Cooper'
 const course = 'JavaScript'
 
 const fullName = `Hey ${firstName} ${lastName} Welcome to ${course}.`
@@ -863,6 +865,10 @@ while (i <= 5);
 
 - The for-in loop is a special type of a loop that `iterates over the properties of an object or the elements of an array`
 
+<p align="center">
+  <img src="assets/images/love.png" alt="JavaScript logo" title="JavaScript tutorial" width="400" />
+</p>
+
 #### 09.04.01. The for...in Loop - array
 
 > **Syntax & Example**: `09.04.01.script.js`
@@ -874,13 +880,13 @@ while (i <= 5);
 }*/
 
 // An array with some elements
-let arrColors = ["Red", "Green", "Blue", "Cyan", "Magenta", "Yellow", "Black"];
+let air = ["Nitrogen", "Oxygen", "Carbon Dioxide", "Water Vapour"];
 
 // Loop through all the elements in the array 
-for (let color in arrColors) {
-  alert('Color is: ' + arrColors[color]);
-  document.write('<li>Color is: ' + arrColors[color] + '</li>');
-  console.log('Color is: ' + arrColors[color]);
+for (let love in air) {
+  alert('' + air[love] + ' is in the air!');
+  document.write('<li>' + air[love] + ' is in the air!</li>');
+  console.log('' + air[love] + + ' is in the air!');
 }
 ```
 
@@ -895,7 +901,7 @@ for (let color in arrColors) {
 }*/
 
 // An object with some properties 
-let objEmployee = {'emp_name': 'Dinanath', 'emp_addres': 'Mumbai', 'emp_id': '029', 'emp_age':35};
+let objEmployee = {'emp_name': 'Sheldon', 'emp_addres': 'Mumbai', 'emp_id': '029', 'emp_age':35};
 
 // Loop through all the properties in the object  
 for (emp in objEmployee) {
@@ -1091,14 +1097,14 @@ Use `if` to specify a block of code to be executed, `if a specified condition is
 }
 */
 
-let user = 'Dinanath';
+let user = 'Sheldon';
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == 'Sheldon') {
+  console.log('Welcome Sheldon!');
+  window.alert('Welcome Sheldon!');
 }
 
-if (user == 'Dinanath') {
+if (user == 'Sheldon') {
   console.log('Welcome Authorised User: ' + user + '!');
   window.alert('Welcome Authorised User: ' + user + '!');
 }
@@ -1153,9 +1159,9 @@ else{
 
 let user = 'Ambar';
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == 'Sheldon') {
+  console.log('Welcome Sheldon!');
+  window.alert('Welcome Sheldon!');
 } else {
   console.log('Welcome Guest!');
   window.alert('Welcome Guest!');

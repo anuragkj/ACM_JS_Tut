@@ -8,11 +8,11 @@
 }*/
 
 // An array with some elements
-let arrColors = ["Red", "Green", "Blue", "Cyan", "Magenta", "Yellow", "Black"];
+let air = ["Nitrogen", "Oxygen", "Carbon Dioxide", "Water Vapour"];
 
 // Loop through all the elements in the array 
-for (let color in arrColors) {
-  alert('Color is: ' + arrColors[color]);
-  document.write('<li>Color is: ' + arrColors[color] + '</li>');
-  console.log('Color is: ' + arrColors[color]);
+for (let love in air) {
+  alert('' + air[love] + ' is in the air!');
+  document.write('<li>' + air[love] + ' is in the air!</li>');
+  console.log('' + air[love] + + ' is in the air!');
 }

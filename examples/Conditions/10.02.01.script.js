@@ -12,9 +12,9 @@ else{
 
 let user = 'Ambar';
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == 'Sheldon') {
+  console.log('Welcome Sheldon!');
+  window.alert('Welcome Sheldon!');
 } else {
   console.log('Welcome Guest!');
   window.alert('Welcome Guest!');

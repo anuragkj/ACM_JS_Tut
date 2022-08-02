@@ -8,14 +8,14 @@
 }
 */
 
-let user = 'Dinanath';
+let user = 'Sheldon';
 
-if (user == 'Dinanath') {
-  console.log('Welcome Dinanath!');
-  window.alert('Welcome Dinanath!');
+if (user == 'Sheldon') {
+  console.log('Welcome Sheldon!');
+  window.alert('Welcome Sheldon!');
 }
 
-if (user == 'Dinanath') {
+if (user == 'Sheldon') {
   console.log('Welcome Authorised User: ' + user + '!');
   window.alert('Welcome Authorised User: ' + user + '!');
 }
