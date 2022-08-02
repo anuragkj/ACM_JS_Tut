@@ -478,7 +478,7 @@ function sayHello (name = 'User') {
 //2. invoke / call the function
 sayHello();
 
-sayHello('Amber');
+sayHello('Sheldon');
 
 // ------------------------------
 
@@ -588,7 +588,7 @@ alert(sum1(5,10));
 
 (function(userName) {
   console.log('Welcome', userName);
-})('Dinanath');
+})('Sheldon');
 ```
 
 08.04. String Methods and Concatenation

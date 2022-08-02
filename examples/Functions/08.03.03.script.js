@@ -5,3 +5,7 @@
 (function () {
   console.log('Welcome to Immediately invoked function expression (IIFE)');
 }());
+
+(function(userName) {
+  console.log('Welcome', userName);
+})('Sheldon');

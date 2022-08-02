@@ -14,7 +14,7 @@ function sayHello (name = 'User') {
 //2. invoke / call the function
 sayHello();
 
-sayHello('Amber');
+sayHello('Sheldon');
 
 // ------------------------------
 
