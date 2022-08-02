@@ -153,12 +153,16 @@ console.log('false || true: ', false || true);
 // ------------------------------
 
 // ! (Logical NOT) True if operand is not true (means I will be true if other is false)
-var isSeniorCitizen = true;
+var iamcrazy = true;
 
-var isYoungGeneration = !isSeniorCitizen;
-console.log('isYoungGeneration: ', isYoungGeneration);
+var iamnotcrazy = !iamcrazy;
+console.log('I am crazy?: ', iamnotcrazy);
+console.log('My mother had me tested');
 ```
 <hr/>
+<p align="center">
+  <img src="assets/images/crazy.png" alt="JavaScript logo" title="JavaScript tutorial" width="400" />
+</p>
 
 > **Syntax & Example**: `07.04.02.script.js`
 ```javascript
@@ -286,7 +290,7 @@ message1 += message2;
 alert(message1); 
 ```
 <p align="center">
-  <img src="assets/images/string_concat.png" alt="I haven't watched the show. Hopefully its a meme :)" title="JavaScript tutorial" width="600" />
+  <img src="assets/images/string_concat.png" alt="I haven't watched the show. Hopefully its a meme :)" title="JavaScript tutorial" width="500" />
 </p>
    
 
