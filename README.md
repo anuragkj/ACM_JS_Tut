@@ -1299,7 +1299,12 @@ switch (grade) {
 }
 
 // ------------------------------
+```
+<p align="center">
+  <img src="assets/images/food.png" alt="JavaScript logo" title="JavaScript tutorial" width="300" />
+</p>
 
+```
 let sweets = ''; //cake, chocolates, biscuits
 
 switch (sweets) {
@@ -1316,7 +1321,9 @@ switch (sweets) {
     console.log('No Sweets! Try some other sweets!');
     break;
 }
+```
 
+```
 // ------------------------------
 
 const color = 'red';
