@@ -277,14 +277,18 @@ There are two operators which can also be used be for strings:
 > **Syntax & Example**: `07.07.script.js`
 ```javascript
 // String Operators
-var message1 = "Hello";
-var message2 = " World!";
+var message1 = "Its your birthday!";
+var message2 = " Smile!";
  
-alert(message1 + message2); // Outputs: Hello World!
+alert(message1 + message2); 
  
 message1 += message2;
-alert(message1); // Outputs: Hello World!
+alert(message1); 
 ```
+<p align="center">
+  <img src="assets/images/string_concat.png" alt="I haven't watched the show. Hopefully its a meme :)" title="JavaScript tutorial" width="600" />
+</p>
+   
 
 07.08. Operator precedence
 ---------------------
