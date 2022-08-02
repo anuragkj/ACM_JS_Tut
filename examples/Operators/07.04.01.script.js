@@ -18,7 +18,8 @@ console.log('false || true: ', false || true);
 // ------------------------------
 
 // ! (Logical NOT) True if operand is not true (means I will be true if other is false)
-var isSeniorCitizen = true;
+var iamcrazy = true;
 
-var isYoungGeneration = !isSeniorCitizen;
-console.log('isYoungGeneration: ', isYoungGeneration);
+var iamnotcrazy = !iamcrazy;
+console.log('I am crazy?: ', iamnotcrazy);
+console.log('My mother had me tested');

@@ -406,20 +406,21 @@ Examples of function names:
 
 - Simple/Normal function which we use daily to perform some action/task
 
+
 > **Syntax & Example**: `08.02.01.script.js`
 ```javascript
-var name = 'Dinanath';
+var food = 'butter';
 
 //1. define / declare / create function
-function sayHello () {
+function passButter() {
   //Body of function 
   //code to be executed
-  console.log('Hello ' + name);
-  alert('Hello ' + name);    
+  console.log('Please pass the ' + food);
+  alert('Please pass the ' + food);    
 }
 
 //2. invoke / call the function
-sayHello();
+passButter();
 ```
 
 #### 08.02.02.01. Parameterized Function

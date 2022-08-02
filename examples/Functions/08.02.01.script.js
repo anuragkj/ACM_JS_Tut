@@ -1,21 +1,15 @@
 // external js file
 // Write all JavaScript code here
 
-var name = 'Dinanath';
-
-// simple/normal function
+var food = 'butter';
 
 //1. define / declare / create function
-function sayHello () {
+function passButter() {
   //Body of function 
   //code to be executed
-  console.log('Hello ' + name);
-  alert('Hello ' + name);    
+  console.log('Please pass the ' + food);
+  alert('Please pass the ' + food);    
 }
 
 //2. invoke / call the function
-sayHello();
-
-name = 'Dino';
-
-sayHello();
+passButter();

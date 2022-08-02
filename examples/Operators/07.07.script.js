@@ -2,10 +2,10 @@
 // Write all JavaScript code here
 
 // String Operators
-var message1 = "Hello";
-var message2 = " World!";
+var message1 = "Its your birthday!";
+var message2 = " Smile!";
  
-alert(message1 + message2); // Outputs: Hello World!
+alert(message1 + message2); 
  
 message1 += message2;
-alert(message1); // Outputs: Hello World!
+alert(message1); 
