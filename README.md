@@ -1751,4 +1751,4 @@ The fulfilled value of the new promise is an array of fulfilled values of the in
 
 Project
 =====================  
-[Click here](examples/Promises+Project) for a simple project made by the concepts we learnt till now. Try making more!!
+[Click here](https://anuragkj.github.io/JS_Project/) for a simple project made by the concepts we learnt till now. Try making more!!
